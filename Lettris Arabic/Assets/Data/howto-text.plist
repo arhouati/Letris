@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>ابدء اللعب </string>
+		<key>text</key>
+		<string>إبدأ اللعب  بالضغط على زر التشغيل. هذا سوف يوجهك إلى الشاشة الثانية للعبة</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>إختر أحد المحطات</string>
+		<key>text</key>
+		<string>إختر أحد المحطات المتاحة بالضغط على أحد العلب التي تحمل أحرف اللغة العربية.</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>إختر المستوى </string>
+		<key>text</key>
+		<string>كل محطة تحتوي على ستة مستويات. فقط المستوى الأول يكون متاحاً في كل مرة. إضغط على المستوى لبدء اللعب.</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>التحدي</string>
+		<key>text</key>
+		<string>كل مستوى يشمل على تحد معين له علاقة بإيجاد كلمات باللغة العربية. اقرأ جيداً التحدي لتفهم المطلوب منك.</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>كون الكلمات </string>
+		<key>text</key>
+		<string>من أجل كسب التحدي يجب تكوين الكلمة الصحيحة وذلك بواسطة الأحرف المتساقطة. كلما ضغطت على حرف  يضاف هذا الأخير إلى الكلمة. بالضغط مرة أخرى على الحرف يمسح هذا الأخير من الكلمة المكونة.</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>الكلمة لا توجد </string>
+		<key>text</key>
+		<string>مادامت الكلمة المكونة تحتفظ بصورة خلفية حمراء هذا يعني أن الكلمة غير موجودة, بالضغط على الكلمة في هذه الحالة يمكنك إلغاء جميع الأحرف المختارة والبدء من جديد.</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>الكلمة الصحيحة </string>
+		<key>text</key>
+		<string>إذا تغيرت خلفية الكلمة المكونة إلى اللون الأخضر هذا يعني إن الكلمة صحيحة. إضغط إذا على الكلمة لتحصيل نقط واحدة. </string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>تم إنجاز التحدي </string>
+		<key>text</key>
+		<string>بتجميع العدد المطلوب من الكلمات الصحيحة تكون قد فزت بالتحد، هذا يمكنك من فتح مستوًى جديد و تحد جديد.</string>
+	</dict>
+</array>
+</plist>

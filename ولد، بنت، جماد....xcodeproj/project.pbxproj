@@ -1,0 +1,985 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		380151BB18562730003031A0 /* words-ara-animals.plist in Resources */ = {isa = PBXBuildFile; fileRef = 380151BA18562730003031A0 /* words-ara-animals.plist */; };
+		381AB7B518324644001B5E9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 381AB7B418324644001B5E9A /* Foundation.framework */; };
+		381AB7B718324644001B5E9A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 381AB7B618324644001B5E9A /* CoreGraphics.framework */; };
+		381AB7B918324644001B5E9A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 381AB7B818324644001B5E9A /* UIKit.framework */; };
+		381AB7BB18324644001B5E9A /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 381AB7BA18324644001B5E9A /* SpriteKit.framework */; };
+		381AB7C718324644001B5E9A /* LETAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 381AB7C618324644001B5E9A /* LETAppDelegate.m */; };
+		381AB7CA18324644001B5E9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 381AB7C818324644001B5E9A /* Main.storyboard */; };
+		381AB7DB18324644001B5E9A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 381AB7DA18324644001B5E9A /* XCTest.framework */; };
+		381AB7DC18324644001B5E9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 381AB7B418324644001B5E9A /* Foundation.framework */; };
+		381AB7DD18324644001B5E9A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 381AB7B818324644001B5E9A /* UIKit.framework */; };
+		381AB7E518324644001B5E9A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 381AB7E318324644001B5E9A /* InfoPlist.strings */; };
+		381AB7E718324644001B5E9A /* Lettris_ArabicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 381AB7E618324644001B5E9A /* Lettris_ArabicTests.m */; };
+		381AB80918324668001B5E9A /* mogen.sh in Resources */ = {isa = PBXBuildFile; fileRef = 381AB80518324668001B5E9A /* mogen.sh */; };
+		381AB80A18324668001B5E9A /* mogend.sh in Resources */ = {isa = PBXBuildFile; fileRef = 381AB80618324668001B5E9A /* mogend.sh */; };
+		381AB80B18324668001B5E9A /* UpdateBuildNumber.sh in Resources */ = {isa = PBXBuildFile; fileRef = 381AB80718324668001B5E9A /* UpdateBuildNumber.sh */; };
+		381AB80C18324668001B5E9A /* UpdateEntitlements.sh in Resources */ = {isa = PBXBuildFile; fileRef = 381AB80818324668001B5E9A /* UpdateEntitlements.sh */; };
+		381AB81D18324895001B5E9A /* LETViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 381AB81C18324895001B5E9A /* LETViewController.m */; };
+		381AB86318329621001B5E9A /* LETColumn.m in Sources */ = {isa = PBXBuildFile; fileRef = 381AB86218329620001B5E9A /* LETColumn.m */; };
+		38304D37186B5DDF00D7DEE2 /* blocked.atlasc in Resources */ = {isa = PBXBuildFile; fileRef = 38304D36186B5DDF00D7DEE2 /* blocked.atlasc */; };
+		3867AAB0183512FD00A0CBBC /* LETGameStart.m in Sources */ = {isa = PBXBuildFile; fileRef = 3867AAAF183512FD00A0CBBC /* LETGameStart.m */; };
+		388DBE701848F51200E58DEE /* lives.plist in Resources */ = {isa = PBXBuildFile; fileRef = 388DBE6F1848F51200E58DEE /* lives.plist */; };
+		389A6894183F69FD00A5E309 /* words-ara-woman.plist in Resources */ = {isa = PBXBuildFile; fileRef = 389A6893183F69FD00A5E309 /* words-ara-woman.plist */; };
+		389A6898183F6A3200A5E309 /* words-ara-capitals.plist in Resources */ = {isa = PBXBuildFile; fileRef = 389A6897183F6A3200A5E309 /* words-ara-capitals.plist */; };
+		389A689A183F6A4F00A5E309 /* words-ara-countries.plist in Resources */ = {isa = PBXBuildFile; fileRef = 389A6899183F6A4F00A5E309 /* words-ara-countries.plist */; };
+		389A689C183F6A6B00A5E309 /* levels.plist in Resources */ = {isa = PBXBuildFile; fileRef = 389A689B183F6A6B00A5E309 /* levels.plist */; };
+		389A68A0183F6D0E00A5E309 /* LETGameLevels.m in Sources */ = {isa = PBXBuildFile; fileRef = 389A689F183F6D0E00A5E309 /* LETGameLevels.m */; };
+		389A8661185B2E63009C0D71 /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 389A8660185B2E63009C0D71 /* heart.png */; };
+		38B52A701857388800A21440 /* steps.plist in Resources */ = {isa = PBXBuildFile; fileRef = 38B52A6F1857388800A21440 /* steps.plist */; };
+		38D47E0E18338B4900945FB0 /* words-ara-man.plist in Resources */ = {isa = PBXBuildFile; fileRef = 38D47E0D18338B4900945FB0 /* words-ara-man.plist */; };
+		38D47E861833CAC600945FB0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 38D47E821833CAC600945FB0 /* InfoPlist.strings */; };
+		38D47E881833CAC600945FB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D47E851833CAC600945FB0 /* main.m */; };
+		38F0FA59184F8E1000333CA4 /* heart-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 38F0FA57184F8E1000333CA4 /* heart-2.png */; };
+		B4063DDD1E309D750048D879 /* bg.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4063DDC1E309D750048D879 /* bg.xcassets */; };
+		B4063DDF1E30A4B00048D879 /* startscene.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4063DDE1E30A4B00048D879 /* startscene.xcassets */; };
+		B429E09A1E28BB200049060E /* letters.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B429E0991E28BB200049060E /* letters.xcassets */; };
+		B46EF28A1E3901E600F4E54B /* howto.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B46EF2891E3901E600F4E54B /* howto.xcassets */; };
+		B46EF28D1E3903C800F4E54B /* LETHowToSliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B46EF28C1E3903C800F4E54B /* LETHowToSliderViewController.m */; };
+		B46EF28F1E39107600F4E54B /* howto-text.plist in Resources */ = {isa = PBXBuildFile; fileRef = B46EF28E1E39107600F4E54B /* howto-text.plist */; };
+		B474A8C71E37A188007F019D /* LETHowToViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B474A8C51E37A188007F019D /* LETHowToViewController.m */; };
+		B474A8C81E37A188007F019D /* LETHowToViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B474A8C61E37A188007F019D /* LETHowToViewController.xib */; };
+		B48DE6EC1E47947F00D78FA9 /* levels.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B48DE6EB1E47947F00D78FA9 /* levels.xcassets */; };
+		B4BF02F71D3DA1750084C84F /* AppIcon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4BF02F61D3DA1750084C84F /* AppIcon.xcassets */; };
+		B4D71CCC1E34FDCB00E0BE2D /* buttons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4D71CCB1E34FDCB00E0BE2D /* buttons.xcassets */; };
+		B4F3AC711A29322300BDC5CF /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4F3AC701A29322300BDC5CF /* iAd.framework */; };
+		C4530C58917E45006F2BDEAF /* libPods-ولد، بنت، جماد....a in Frameworks */ = {isa = PBXBuildFile; fileRef = 826493E622A2303B59C53D40 /* libPods-ولد، بنت، جماد....a */; };
+		FC0E44AA1EA5AF8000880AAA /* words-ara-vegetables.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC0E44A91EA5AF8000880AAA /* words-ara-vegetables.plist */; };
+		FC0E44AE1EA5C1E500880AAA /* iRate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0E44AD1EA5C1E500880AAA /* iRate.m */; };
+		FC0E44B01EA6585300880AAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC0E44AF1EA6585300880AAA /* LaunchScreen.storyboard */; };
+		FC46A0291EA81B2C000CB062 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC46A0281EA81B2C000CB062 /* AVFoundation.framework */; };
+		FC46A02B1EA81F60000CB062 /* wrongWord.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC46A02A1EA81F60000CB062 /* wrongWord.mp3 */; };
+		FC46A02F1EA821F7000CB062 /* valideWord.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC46A02E1EA821F7000CB062 /* valideWord.mp3 */; };
+		FC46A0331EA82615000CB062 /* gameOver.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC46A0321EA82615000CB062 /* gameOver.mp3 */; };
+		FC46A0351EA826DE000CB062 /* click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC46A0341EA826DE000CB062 /* click.mp3 */; };
+		FC46A0371EA82AE9000CB062 /* exitGame.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC46A0361EA82AE9000CB062 /* exitGame.mp3 */; };
+		FC47DD1A1EAACA5000CAB7E6 /* LETGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 381AB815183247D7001B5E9A /* LETGame.m */; };
+		FC47DD1C1EAAD3FC00CAB7E6 /* displayButtonStart.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC47DD1B1EAAD3FC00CAB7E6 /* displayButtonStart.mp3 */; };
+		FC47DD1E1EAAD41200CAB7E6 /* displayButtonPlay.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC47DD1D1EAAD41200CAB7E6 /* displayButtonPlay.mp3 */; };
+		FC90089F1E5A215E0071CBFC /* steps.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC90089E1E5A215E0071CBFC /* steps.xcassets */; };
+		FCB6158C1EA95C8B00DBCC16 /* backgroundMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FCB6158B1EA95C8B00DBCC16 /* backgroundMusic.mp3 */; };
+		FCB6158E1EA95EC800DBCC16 /* letterDown.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FCB6158D1EA95EC800DBCC16 /* letterDown.mp3 */; };
+		FCB615901EA961F600DBCC16 /* appearSteps.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FCB6158F1EA961F600DBCC16 /* appearSteps.mp3 */; };
+		FCB615921EA964FA00DBCC16 /* popinLevels.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FCB615911EA964FA00DBCC16 /* popinLevels.mp3 */; };
+		FCB615941EA96D3800DBCC16 /* winLevel.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FCB615931EA96D3800DBCC16 /* winLevel.mp3 */; };
+		FCB615961EA96F4B00DBCC16 /* newLevel.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FCB615951EA96F4B00DBCC16 /* newLevel.mp3 */; };
+		FCBFE08B1F0B8F500026B47C /* LETGame2.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBFE08A1F0B8F500026B47C /* LETGame2.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		381AB7DE18324644001B5E9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 381AB7A918324644001B5E9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 381AB7B018324644001B5E9A;
+			remoteInfo = "Lettris Arabic";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		380151BA18562730003031A0 /* words-ara-animals.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "words-ara-animals.plist"; sourceTree = "<group>"; };
+		381AB7B118324644001B5E9A /* ولد، بنت، جماد....app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ولد، بنت، جماد....app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		381AB7B418324644001B5E9A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		381AB7B618324644001B5E9A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		381AB7B818324644001B5E9A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		381AB7BA18324644001B5E9A /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		381AB7C518324644001B5E9A /* LETAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LETAppDelegate.h; sourceTree = "<group>"; };
+		381AB7C618324644001B5E9A /* LETAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LETAppDelegate.m; sourceTree = "<group>"; };
+		381AB7C918324644001B5E9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		381AB7D918324644001B5E9A /* ولد، بنت، جماد...Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ولد، بنت، جماد...Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		381AB7DA18324644001B5E9A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		381AB7E218324644001B5E9A /* ولد، بنت، جماد...Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ولد، بنت، جماد...Tests-Info.plist"; sourceTree = "<group>"; };
+		381AB7E418324644001B5E9A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		381AB7E618324644001B5E9A /* Lettris_ArabicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lettris_ArabicTests.m; sourceTree = "<group>"; };
+		381AB80518324668001B5E9A /* mogen.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = mogen.sh; sourceTree = "<group>"; };
+		381AB80618324668001B5E9A /* mogend.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = mogend.sh; sourceTree = "<group>"; };
+		381AB80718324668001B5E9A /* UpdateBuildNumber.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = UpdateBuildNumber.sh; sourceTree = "<group>"; };
+		381AB80818324668001B5E9A /* UpdateEntitlements.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = UpdateEntitlements.sh; sourceTree = "<group>"; };
+		381AB814183247D7001B5E9A /* LETGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LETGame.h; sourceTree = "<group>"; };
+		381AB815183247D7001B5E9A /* LETGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LETGame.m; sourceTree = "<group>"; };
+		381AB81B18324895001B5E9A /* LETViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LETViewController.h; sourceTree = "<group>"; };
+		381AB81C18324895001B5E9A /* LETViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LETViewController.m; sourceTree = "<group>"; };
+		381AB86118329620001B5E9A /* LETColumn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LETColumn.h; sourceTree = "<group>"; };
+		381AB86218329620001B5E9A /* LETColumn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LETColumn.m; sourceTree = "<group>"; };
+		38304D36186B5DDF00D7DEE2 /* blocked.atlasc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = blocked.atlasc; sourceTree = "<group>"; };
+		38304D38186B5DF400D7DEE2 /* blocked.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = blocked.h; sourceTree = "<group>"; };
+		3867AAAE183512FD00A0CBBC /* LETGameStart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LETGameStart.h; sourceTree = "<group>"; };
+		3867AAAF183512FD00A0CBBC /* LETGameStart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LETGameStart.m; sourceTree = "<group>"; };
+		388DBE6F1848F51200E58DEE /* lives.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = lives.plist; sourceTree = "<group>"; };
+		389A6893183F69FD00A5E309 /* words-ara-woman.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "words-ara-woman.plist"; sourceTree = "<group>"; };
+		389A6897183F6A3200A5E309 /* words-ara-capitals.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "words-ara-capitals.plist"; sourceTree = "<group>"; };
+		389A6899183F6A4F00A5E309 /* words-ara-countries.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "words-ara-countries.plist"; sourceTree = "<group>"; };
+		389A689B183F6A6B00A5E309 /* levels.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = levels.plist; sourceTree = "<group>"; };
+		389A689E183F6D0E00A5E309 /* LETGameLevels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LETGameLevels.h; sourceTree = "<group>"; };
+		389A689F183F6D0E00A5E309 /* LETGameLevels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LETGameLevels.m; sourceTree = "<group>"; };
+		389A8660185B2E63009C0D71 /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
+		38B52A6F1857388800A21440 /* steps.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = steps.plist; sourceTree = "<group>"; };
+		38B52A751858CF3700A21440 /* A_Nefel_Botan.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = A_Nefel_Botan.ttf; sourceTree = "<group>"; };
+		38B52A761858CF3700A21440 /* BElham.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BElham.ttf; sourceTree = "<group>"; };
+		38B52A771858CF3700A21440 /* BEsfhnBd.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BEsfhnBd.ttf; sourceTree = "<group>"; };
+		38B52A781858CF3700A21440 /* BJadidBd.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BJadidBd.ttf; sourceTree = "<group>"; };
+		38B52A791858CF3700A21440 /* BKoodakO.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BKoodakO.ttf; sourceTree = "<group>"; };
+		38D47E0D18338B4900945FB0 /* words-ara-man.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "words-ara-man.plist"; sourceTree = "<group>"; };
+		38D47E821833CAC600945FB0 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		38D47E831833CAC600945FB0 /* ولد، بنت، جماد...-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ولد، بنت، جماد...-Info.plist"; sourceTree = "<group>"; };
+		38D47E841833CAC600945FB0 /* ولد، بنت، جماد...-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ولد، بنت، جماد...-Prefix.pch"; sourceTree = "<group>"; };
+		38D47E851833CAC600945FB0 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		38F0FA57184F8E1000333CA4 /* heart-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "heart-2.png"; sourceTree = "<group>"; };
+		826493E622A2303B59C53D40 /* libPods-ولد، بنت، جماد....a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ولد، بنت، جماد....a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A547007E607A303E869EE14C /* Pods-ولد، بنت، جماد....release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ولد، بنت، جماد....release.xcconfig"; path = "Pods/Target Support Files/Pods-ولد، بنت، جماد.../Pods-ولد، بنت، جماد....release.xcconfig"; sourceTree = "<group>"; };
+		B4063DDC1E309D750048D879 /* bg.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = bg.xcassets; sourceTree = "<group>"; };
+		B4063DDE1E30A4B00048D879 /* startscene.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = startscene.xcassets; sourceTree = "<group>"; };
+		B429E0991E28BB200049060E /* letters.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = letters.xcassets; path = letters/letters.xcassets; sourceTree = "<group>"; };
+		B455B2F44DA7CD7C1A2DFF84 /* Pods-ولد، بنت، جماد....debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ولد، بنت، جماد....debug.xcconfig"; path = "Pods/Target Support Files/Pods-ولد، بنت، جماد.../Pods-ولد، بنت، جماد....debug.xcconfig"; sourceTree = "<group>"; };
+		B46EF2891E3901E600F4E54B /* howto.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = howto.xcassets; sourceTree = "<group>"; };
+		B46EF28B1E3903C800F4E54B /* LETHowToSliderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LETHowToSliderViewController.h; path = howto/LETHowToSliderViewController.h; sourceTree = "<group>"; };
+		B46EF28C1E3903C800F4E54B /* LETHowToSliderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LETHowToSliderViewController.m; path = howto/LETHowToSliderViewController.m; sourceTree = "<group>"; };
+		B46EF28E1E39107600F4E54B /* howto-text.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "howto-text.plist"; sourceTree = "<group>"; };
+		B474A8C41E37A188007F019D /* LETHowToViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LETHowToViewController.h; path = howto/LETHowToViewController.h; sourceTree = "<group>"; };
+		B474A8C51E37A188007F019D /* LETHowToViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LETHowToViewController.m; path = howto/LETHowToViewController.m; sourceTree = "<group>"; };
+		B474A8C61E37A188007F019D /* LETHowToViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LETHowToViewController.xib; path = howto/LETHowToViewController.xib; sourceTree = "<group>"; };
+		B48DE6EB1E47947F00D78FA9 /* levels.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = levels.xcassets; sourceTree = "<group>"; };
+		B4BF02F61D3DA1750084C84F /* AppIcon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AppIcon.xcassets; sourceTree = "<group>"; };
+		B4D71CCB1E34FDCB00E0BE2D /* buttons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = buttons.xcassets; sourceTree = "<group>"; };
+		B4F3AC701A29322300BDC5CF /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		FC0E44A91EA5AF8000880AAA /* words-ara-vegetables.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "words-ara-vegetables.plist"; sourceTree = "<group>"; };
+		FC0E44AC1EA5C1E500880AAA /* iRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iRate.h; sourceTree = "<group>"; };
+		FC0E44AD1EA5C1E500880AAA /* iRate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iRate.m; sourceTree = "<group>"; };
+		FC0E44AF1EA6585300880AAA /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC46A0281EA81B2C000CB062 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FC46A02A1EA81F60000CB062 /* wrongWord.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wrongWord.mp3; sourceTree = "<group>"; };
+		FC46A02E1EA821F7000CB062 /* valideWord.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = valideWord.mp3; sourceTree = "<group>"; };
+		FC46A0321EA82615000CB062 /* gameOver.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gameOver.mp3; sourceTree = "<group>"; };
+		FC46A0341EA826DE000CB062 /* click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = click.mp3; sourceTree = "<group>"; };
+		FC46A0361EA82AE9000CB062 /* exitGame.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = exitGame.mp3; sourceTree = "<group>"; };
+		FC47DD1B1EAAD3FC00CAB7E6 /* displayButtonStart.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = displayButtonStart.mp3; sourceTree = "<group>"; };
+		FC47DD1D1EAAD41200CAB7E6 /* displayButtonPlay.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = displayButtonPlay.mp3; sourceTree = "<group>"; };
+		FC90089E1E5A215E0071CBFC /* steps.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = steps.xcassets; sourceTree = "<group>"; };
+		FCB6158B1EA95C8B00DBCC16 /* backgroundMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backgroundMusic.mp3; sourceTree = "<group>"; };
+		FCB6158D1EA95EC800DBCC16 /* letterDown.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = letterDown.mp3; sourceTree = "<group>"; };
+		FCB6158F1EA961F600DBCC16 /* appearSteps.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = appearSteps.mp3; sourceTree = "<group>"; };
+		FCB615911EA964FA00DBCC16 /* popinLevels.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = popinLevels.mp3; sourceTree = "<group>"; };
+		FCB615931EA96D3800DBCC16 /* winLevel.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = winLevel.mp3; sourceTree = "<group>"; };
+		FCB615951EA96F4B00DBCC16 /* newLevel.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = newLevel.mp3; sourceTree = "<group>"; };
+		FCBFE0891F0B8F500026B47C /* LETGame2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LETGame2.h; sourceTree = "<group>"; };
+		FCBFE08A1F0B8F500026B47C /* LETGame2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LETGame2.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		381AB7AE18324644001B5E9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC46A0291EA81B2C000CB062 /* AVFoundation.framework in Frameworks */,
+				B4F3AC711A29322300BDC5CF /* iAd.framework in Frameworks */,
+				381AB7B718324644001B5E9A /* CoreGraphics.framework in Frameworks */,
+				381AB7B918324644001B5E9A /* UIKit.framework in Frameworks */,
+				381AB7BB18324644001B5E9A /* SpriteKit.framework in Frameworks */,
+				381AB7B518324644001B5E9A /* Foundation.framework in Frameworks */,
+				C4530C58917E45006F2BDEAF /* libPods-ولد، بنت، جماد....a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		381AB7D618324644001B5E9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				381AB7DB18324644001B5E9A /* XCTest.framework in Frameworks */,
+				381AB7DD18324644001B5E9A /* UIKit.framework in Frameworks */,
+				381AB7DC18324644001B5E9A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		381AB7A818324644001B5E9A = {
+			isa = PBXGroup;
+			children = (
+				381AB7BC18324644001B5E9A /* Lettris Arabic */,
+				381AB7E018324644001B5E9A /* Lettris ArabicTests */,
+				381AB7B318324644001B5E9A /* Frameworks */,
+				381AB7B218324644001B5E9A /* Products */,
+				8C6AFA54E6530DAD7D2C040D /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		381AB7B218324644001B5E9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				381AB7B118324644001B5E9A /* ولد، بنت، جماد....app */,
+				381AB7D918324644001B5E9A /* ولد، بنت، جماد...Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		381AB7B318324644001B5E9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC46A0281EA81B2C000CB062 /* AVFoundation.framework */,
+				B4F3AC701A29322300BDC5CF /* iAd.framework */,
+				381AB7B418324644001B5E9A /* Foundation.framework */,
+				381AB7B618324644001B5E9A /* CoreGraphics.framework */,
+				381AB7B818324644001B5E9A /* UIKit.framework */,
+				381AB7BA18324644001B5E9A /* SpriteKit.framework */,
+				381AB7DA18324644001B5E9A /* XCTest.framework */,
+				826493E622A2303B59C53D40 /* libPods-ولد، بنت، جماد....a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		381AB7BC18324644001B5E9A /* Lettris Arabic */ = {
+			isa = PBXGroup;
+			children = (
+				381AB7F018324668001B5E9A /* Assets */,
+				381AB7F718324668001B5E9A /* Classes */,
+				381AB80218324668001B5E9A /* Config */,
+				381AB80318324668001B5E9A /* Libraries */,
+				381AB80418324668001B5E9A /* Scripts */,
+				38D47E811833CAC600945FB0 /* Supporting Files */,
+				381AB7C518324644001B5E9A /* LETAppDelegate.h */,
+				381AB7C618324644001B5E9A /* LETAppDelegate.m */,
+				381AB7C818324644001B5E9A /* Main.storyboard */,
+				FC0E44AF1EA6585300880AAA /* LaunchScreen.storyboard */,
+			);
+			path = "Lettris Arabic";
+			sourceTree = "<group>";
+		};
+		381AB7E018324644001B5E9A /* Lettris ArabicTests */ = {
+			isa = PBXGroup;
+			children = (
+				381AB7E618324644001B5E9A /* Lettris_ArabicTests.m */,
+				381AB7E118324644001B5E9A /* Supporting Files */,
+			);
+			path = "Lettris ArabicTests";
+			sourceTree = "<group>";
+		};
+		381AB7E118324644001B5E9A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				381AB7E218324644001B5E9A /* ولد، بنت، جماد...Tests-Info.plist */,
+				381AB7E318324644001B5E9A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		381AB7F018324668001B5E9A /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				381AB7F118324668001B5E9A /* Audio */,
+				381AB7F218324668001B5E9A /* Data */,
+				381AB7F318324668001B5E9A /* Fonts */,
+				381AB7F618324668001B5E9A /* Images */,
+				389A6890183F663B00A5E309 /* Sprites */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		381AB7F118324668001B5E9A /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				FCB6158B1EA95C8B00DBCC16 /* backgroundMusic.mp3 */,
+				FC46A0361EA82AE9000CB062 /* exitGame.mp3 */,
+				FC46A0341EA826DE000CB062 /* click.mp3 */,
+				FC46A0321EA82615000CB062 /* gameOver.mp3 */,
+				FC46A02E1EA821F7000CB062 /* valideWord.mp3 */,
+				FC46A02A1EA81F60000CB062 /* wrongWord.mp3 */,
+				FCB6158D1EA95EC800DBCC16 /* letterDown.mp3 */,
+				FCB6158F1EA961F600DBCC16 /* appearSteps.mp3 */,
+				FCB615911EA964FA00DBCC16 /* popinLevels.mp3 */,
+				FCB615931EA96D3800DBCC16 /* winLevel.mp3 */,
+				FCB615951EA96F4B00DBCC16 /* newLevel.mp3 */,
+				FC47DD1B1EAAD3FC00CAB7E6 /* displayButtonStart.mp3 */,
+				FC47DD1D1EAAD41200CAB7E6 /* displayButtonPlay.mp3 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		381AB7F218324668001B5E9A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				38B52A6F1857388800A21440 /* steps.plist */,
+				389A689B183F6A6B00A5E309 /* levels.plist */,
+				388DBE6F1848F51200E58DEE /* lives.plist */,
+				38D47E0D18338B4900945FB0 /* words-ara-man.plist */,
+				389A6893183F69FD00A5E309 /* words-ara-woman.plist */,
+				389A6899183F6A4F00A5E309 /* words-ara-countries.plist */,
+				389A6897183F6A3200A5E309 /* words-ara-capitals.plist */,
+				380151BA18562730003031A0 /* words-ara-animals.plist */,
+				FC0E44A91EA5AF8000880AAA /* words-ara-vegetables.plist */,
+				B46EF28E1E39107600F4E54B /* howto-text.plist */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		381AB7F318324668001B5E9A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				38B52A751858CF3700A21440 /* A_Nefel_Botan.ttf */,
+				38B52A761858CF3700A21440 /* BElham.ttf */,
+				38B52A771858CF3700A21440 /* BEsfhnBd.ttf */,
+				38B52A781858CF3700A21440 /* BJadidBd.ttf */,
+				38B52A791858CF3700A21440 /* BKoodakO.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		381AB7F618324668001B5E9A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B429E0991E28BB200049060E /* letters.xcassets */,
+				B4063DDC1E309D750048D879 /* bg.xcassets */,
+				B4063DDE1E30A4B00048D879 /* startscene.xcassets */,
+				B4D71CCB1E34FDCB00E0BE2D /* buttons.xcassets */,
+				B46EF2891E3901E600F4E54B /* howto.xcassets */,
+				B48DE6EB1E47947F00D78FA9 /* levels.xcassets */,
+				FC90089E1E5A215E0071CBFC /* steps.xcassets */,
+				38304D36186B5DDF00D7DEE2 /* blocked.atlasc */,
+				38F0FA55184F8DE100333CA4 /* topBar */,
+				B4BF02F61D3DA1750084C84F /* AppIcon.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		381AB7F718324668001B5E9A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				381AB7FC18324668001B5E9A /* Models */,
+				381AB7FE18324668001B5E9A /* Notifications */,
+				381AB812183247AB001B5E9A /* Scenes */,
+				381AB80018324668001B5E9A /* Screens */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		381AB7FC18324668001B5E9A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				381AB7FD18324668001B5E9A /* CoreData */,
+				381AB86118329620001B5E9A /* LETColumn.h */,
+				381AB86218329620001B5E9A /* LETColumn.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		381AB7FD18324668001B5E9A /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		381AB7FE18324668001B5E9A /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		381AB80018324668001B5E9A /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				B4D71CCF1E3502B300E0BE2D /* howto */,
+				381AB81718324853001B5E9A /* main */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		381AB80218324668001B5E9A /* Config */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		381AB80318324668001B5E9A /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				FC0E44AB1EA5C1C700880AAA /* iRate */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		381AB80418324668001B5E9A /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				381AB80518324668001B5E9A /* mogen.sh */,
+				381AB80618324668001B5E9A /* mogend.sh */,
+				381AB80718324668001B5E9A /* UpdateBuildNumber.sh */,
+				381AB80818324668001B5E9A /* UpdateEntitlements.sh */,
+			);
+			path = Scripts;
+			sourceTree = "<group>";
+		};
+		381AB812183247AB001B5E9A /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				381AB813183247C3001B5E9A /* game */,
+				389A689D183F6CF400A5E309 /* gameLevels */,
+				3867AAAD183512E900A0CBBC /* gameStart */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		381AB813183247C3001B5E9A /* game */ = {
+			isa = PBXGroup;
+			children = (
+				381AB814183247D7001B5E9A /* LETGame.h */,
+				381AB815183247D7001B5E9A /* LETGame.m */,
+				FCBFE0891F0B8F500026B47C /* LETGame2.h */,
+				FCBFE08A1F0B8F500026B47C /* LETGame2.m */,
+			);
+			path = game;
+			sourceTree = "<group>";
+		};
+		381AB81718324853001B5E9A /* main */ = {
+			isa = PBXGroup;
+			children = (
+				381AB81B18324895001B5E9A /* LETViewController.h */,
+				381AB81C18324895001B5E9A /* LETViewController.m */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		3867AAAD183512E900A0CBBC /* gameStart */ = {
+			isa = PBXGroup;
+			children = (
+				3867AAAE183512FD00A0CBBC /* LETGameStart.h */,
+				3867AAAF183512FD00A0CBBC /* LETGameStart.m */,
+			);
+			path = gameStart;
+			sourceTree = "<group>";
+		};
+		389A6890183F663B00A5E309 /* Sprites */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sprites;
+			sourceTree = "<group>";
+		};
+		389A689D183F6CF400A5E309 /* gameLevels */ = {
+			isa = PBXGroup;
+			children = (
+				38304D38186B5DF400D7DEE2 /* blocked.h */,
+				389A689E183F6D0E00A5E309 /* LETGameLevels.h */,
+				389A689F183F6D0E00A5E309 /* LETGameLevels.m */,
+			);
+			path = gameLevels;
+			sourceTree = "<group>";
+		};
+		38D47E811833CAC600945FB0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38D47E821833CAC600945FB0 /* InfoPlist.strings */,
+				38D47E831833CAC600945FB0 /* ولد، بنت، جماد...-Info.plist */,
+				38D47E841833CAC600945FB0 /* ولد، بنت، جماد...-Prefix.pch */,
+				38D47E851833CAC600945FB0 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		38F0FA55184F8DE100333CA4 /* topBar */ = {
+			isa = PBXGroup;
+			children = (
+				38F0FA57184F8E1000333CA4 /* heart-2.png */,
+				389A8660185B2E63009C0D71 /* heart.png */,
+			);
+			path = topBar;
+			sourceTree = "<group>";
+		};
+		8C6AFA54E6530DAD7D2C040D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B455B2F44DA7CD7C1A2DFF84 /* Pods-ولد، بنت، جماد....debug.xcconfig */,
+				A547007E607A303E869EE14C /* Pods-ولد، بنت، جماد....release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B4D71CCF1E3502B300E0BE2D /* howto */ = {
+			isa = PBXGroup;
+			children = (
+				B474A8C41E37A188007F019D /* LETHowToViewController.h */,
+				B474A8C51E37A188007F019D /* LETHowToViewController.m */,
+				B474A8C61E37A188007F019D /* LETHowToViewController.xib */,
+				B46EF28B1E3903C800F4E54B /* LETHowToSliderViewController.h */,
+				B46EF28C1E3903C800F4E54B /* LETHowToSliderViewController.m */,
+			);
+			name = howto;
+			sourceTree = "<group>";
+		};
+		FC0E44AB1EA5C1C700880AAA /* iRate */ = {
+			isa = PBXGroup;
+			children = (
+				FC0E44AC1EA5C1E500880AAA /* iRate.h */,
+				FC0E44AD1EA5C1E500880AAA /* iRate.m */,
+			);
+			name = iRate;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		381AB7B018324644001B5E9A /* ولد، بنت، جماد... */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 381AB7EA18324644001B5E9A /* Build configuration list for PBXNativeTarget "ولد، بنت، جماد..." */;
+			buildPhases = (
+				6D593EA726AD8815C7D7433E /* [CP] Check Pods Manifest.lock */,
+				381AB7AD18324644001B5E9A /* Sources */,
+				381AB7AE18324644001B5E9A /* Frameworks */,
+				381AB7AF18324644001B5E9A /* Resources */,
+				3A93E46B07396F9B9240C453 /* [CP] Embed Pods Frameworks */,
+				3E5390AF3732EED3699C32AE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ولد، بنت، جماد...";
+			productName = "Lettris Arabic";
+			productReference = 381AB7B118324644001B5E9A /* ولد، بنت، جماد....app */;
+			productType = "com.apple.product-type.application";
+		};
+		381AB7D818324644001B5E9A /* ولد، بنت، جماد...Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 381AB7ED18324644001B5E9A /* Build configuration list for PBXNativeTarget "ولد، بنت، جماد...Tests" */;
+			buildPhases = (
+				381AB7D518324644001B5E9A /* Sources */,
+				381AB7D618324644001B5E9A /* Frameworks */,
+				381AB7D718324644001B5E9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				381AB7DF18324644001B5E9A /* PBXTargetDependency */,
+			);
+			name = "ولد، بنت، جماد...Tests";
+			productName = "Lettris ArabicTests";
+			productReference = 381AB7D918324644001B5E9A /* ولد، بنت، جماد...Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		381AB7A918324644001B5E9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LET;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ibda3;
+				TargetAttributes = {
+					381AB7B018324644001B5E9A = {
+						DevelopmentTeam = 7LALV6TRDD;
+						ProvisioningStyle = Automatic;
+					};
+					381AB7D818324644001B5E9A = {
+						DevelopmentTeam = 7LALV6TRDD;
+						TestTargetID = 381AB7B018324644001B5E9A;
+					};
+				};
+			};
+			buildConfigurationList = 381AB7AC18324644001B5E9A /* Build configuration list for PBXProject "ولد، بنت، جماد..." */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 381AB7A818324644001B5E9A;
+			productRefGroup = 381AB7B218324644001B5E9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				381AB7B018324644001B5E9A /* ولد، بنت، جماد... */,
+				381AB7D818324644001B5E9A /* ولد، بنت، جماد...Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		381AB7AF18324644001B5E9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4063DDF1E30A4B00048D879 /* startscene.xcassets in Resources */,
+				B46EF28A1E3901E600F4E54B /* howto.xcassets in Resources */,
+				389A689A183F6A4F00A5E309 /* words-ara-countries.plist in Resources */,
+				FCB6158C1EA95C8B00DBCC16 /* backgroundMusic.mp3 in Resources */,
+				FC46A0371EA82AE9000CB062 /* exitGame.mp3 in Resources */,
+				B4BF02F71D3DA1750084C84F /* AppIcon.xcassets in Resources */,
+				38D47E861833CAC600945FB0 /* InfoPlist.strings in Resources */,
+				FCB615941EA96D3800DBCC16 /* winLevel.mp3 in Resources */,
+				FC47DD1E1EAAD41200CAB7E6 /* displayButtonPlay.mp3 in Resources */,
+				389A6898183F6A3200A5E309 /* words-ara-capitals.plist in Resources */,
+				FC0E44AA1EA5AF8000880AAA /* words-ara-vegetables.plist in Resources */,
+				389A8661185B2E63009C0D71 /* heart.png in Resources */,
+				FCB615961EA96F4B00DBCC16 /* newLevel.mp3 in Resources */,
+				FCB615921EA964FA00DBCC16 /* popinLevels.mp3 in Resources */,
+				B4D71CCC1E34FDCB00E0BE2D /* buttons.xcassets in Resources */,
+				381AB80A18324668001B5E9A /* mogend.sh in Resources */,
+				B46EF28F1E39107600F4E54B /* howto-text.plist in Resources */,
+				B474A8C81E37A188007F019D /* LETHowToViewController.xib in Resources */,
+				381AB80B18324668001B5E9A /* UpdateBuildNumber.sh in Resources */,
+				FC46A02B1EA81F60000CB062 /* wrongWord.mp3 in Resources */,
+				380151BB18562730003031A0 /* words-ara-animals.plist in Resources */,
+				381AB80C18324668001B5E9A /* UpdateEntitlements.sh in Resources */,
+				38B52A701857388800A21440 /* steps.plist in Resources */,
+				B429E09A1E28BB200049060E /* letters.xcassets in Resources */,
+				FC0E44B01EA6585300880AAA /* LaunchScreen.storyboard in Resources */,
+				389A689C183F6A6B00A5E309 /* levels.plist in Resources */,
+				FC90089F1E5A215E0071CBFC /* steps.xcassets in Resources */,
+				38D47E0E18338B4900945FB0 /* words-ara-man.plist in Resources */,
+				FCB615901EA961F600DBCC16 /* appearSteps.mp3 in Resources */,
+				FC46A0331EA82615000CB062 /* gameOver.mp3 in Resources */,
+				388DBE701848F51200E58DEE /* lives.plist in Resources */,
+				389A6894183F69FD00A5E309 /* words-ara-woman.plist in Resources */,
+				381AB7CA18324644001B5E9A /* Main.storyboard in Resources */,
+				38304D37186B5DDF00D7DEE2 /* blocked.atlasc in Resources */,
+				38F0FA59184F8E1000333CA4 /* heart-2.png in Resources */,
+				FCB6158E1EA95EC800DBCC16 /* letterDown.mp3 in Resources */,
+				B48DE6EC1E47947F00D78FA9 /* levels.xcassets in Resources */,
+				FC46A02F1EA821F7000CB062 /* valideWord.mp3 in Resources */,
+				FC46A0351EA826DE000CB062 /* click.mp3 in Resources */,
+				B4063DDD1E309D750048D879 /* bg.xcassets in Resources */,
+				FC47DD1C1EAAD3FC00CAB7E6 /* displayButtonStart.mp3 in Resources */,
+				381AB80918324668001B5E9A /* mogen.sh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		381AB7D718324644001B5E9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				381AB7E518324644001B5E9A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A93E46B07396F9B9240C453 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ولد، بنت، جماد.../Pods-ولد، بنت، جماد...-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E5390AF3732EED3699C32AE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ولد، بنت، جماد.../Pods-ولد، بنت، جماد...-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D593EA726AD8815C7D7433E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		381AB7AD18324644001B5E9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCBFE08B1F0B8F500026B47C /* LETGame2.m in Sources */,
+				FC47DD1A1EAACA5000CAB7E6 /* LETGame.m in Sources */,
+				B474A8C71E37A188007F019D /* LETHowToViewController.m in Sources */,
+				FC0E44AE1EA5C1E500880AAA /* iRate.m in Sources */,
+				38D47E881833CAC600945FB0 /* main.m in Sources */,
+				3867AAB0183512FD00A0CBBC /* LETGameStart.m in Sources */,
+				B46EF28D1E3903C800F4E54B /* LETHowToSliderViewController.m in Sources */,
+				389A68A0183F6D0E00A5E309 /* LETGameLevels.m in Sources */,
+				381AB7C718324644001B5E9A /* LETAppDelegate.m in Sources */,
+				381AB86318329621001B5E9A /* LETColumn.m in Sources */,
+				381AB81D18324895001B5E9A /* LETViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		381AB7D518324644001B5E9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				381AB7E718324644001B5E9A /* Lettris_ArabicTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		381AB7DF18324644001B5E9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 381AB7B018324644001B5E9A /* ولد، بنت، جماد... */;
+			targetProxy = 381AB7DE18324644001B5E9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		381AB7C818324644001B5E9A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				381AB7C918324644001B5E9A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		381AB7E318324644001B5E9A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				381AB7E418324644001B5E9A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		381AB7E818324644001B5E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: abdelkader rhouati (MHY57T4W4R)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 7LALV6TRDD;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		381AB7E918324644001B5E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: abdelkader rhouati (7LALV6TRDD)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: abdelkader rhouati (7LALV6TRDD)";
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = 7LALV6TRDD;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		381AB7EB18324644001B5E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B455B2F44DA7CD7C1A2DFF84 /* Pods-ولد، بنت، جماد....debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 7LALV6TRDD;
+				ENABLE_BITCODE = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lettris Arabic/Supporting Files/ولد، بنت، جماد...-Prefix.pch";
+				INFOPLIST_FILE = "Lettris Arabic/Supporting Files/ولد، بنت، جماد...-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cleverapps.letris;
+				PRODUCT_NAME = "ولد، بنت، جماد...";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		381AB7EC18324644001B5E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A547007E607A303E869EE14C /* Pods-ولد، بنت، جماد....release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 7LALV6TRDD;
+				ENABLE_BITCODE = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lettris Arabic/Supporting Files/ولد، بنت، جماد...-Prefix.pch";
+				INFOPLIST_FILE = "Lettris Arabic/Supporting Files/ولد، بنت، جماد...-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cleverapps.letris;
+				PRODUCT_NAME = "ولد، بنت، جماد...";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		381AB7EE18324644001B5E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Lettris Arabic.app/Lettris Arabic";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lettris Arabic/Lettris Arabic-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Lettris ArabicTests/ولد، بنت، جماد...Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lettrisArabic.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "ولد، بنت، جماد...Tests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		381AB7EF18324644001B5E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Lettris Arabic.app/Lettris Arabic";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lettris Arabic/Lettris Arabic-Prefix.pch";
+				INFOPLIST_FILE = "Lettris ArabicTests/ولد، بنت، جماد...Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lettrisArabic.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "ولد، بنت، جماد...Tests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		381AB7AC18324644001B5E9A /* Build configuration list for PBXProject "ولد، بنت، جماد..." */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				381AB7E818324644001B5E9A /* Debug */,
+				381AB7E918324644001B5E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		381AB7EA18324644001B5E9A /* Build configuration list for PBXNativeTarget "ولد، بنت، جماد..." */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				381AB7EB18324644001B5E9A /* Debug */,
+				381AB7EC18324644001B5E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		381AB7ED18324644001B5E9A /* Build configuration list for PBXNativeTarget "ولد، بنت، جماد...Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				381AB7EE18324644001B5E9A /* Debug */,
+				381AB7EF18324644001B5E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 381AB7A918324644001B5E9A /* Project object */;
+}

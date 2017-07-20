@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LETHowToViewController">
+            <connections>
+                <outlet property="imageSlider" destination="HgT-PS-yBl" id="Fvc-OC-XHa"/>
+                <outlet property="pageControlItem" destination="614-Ic-zZD" id="1lz-nq-5D3"/>
+                <outlet property="textSlider" destination="LfA-Vs-c2o" id="5gY-DJ-gMV"/>
+                <outlet property="titleSlider" destination="8eT-L9-VfI" id="JeE-Yh-1AG"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="howto_1" translatesAutoresizingMaskIntoConstraints="NO" id="HgT-PS-yBl">
+                    <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="transparent" translatesAutoresizingMaskIntoConstraints="NO" id="jnx-Ta-6R0">
+                    <rect key="frame" x="0.0" y="426" width="375" height="241"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="241" id="hZV-zG-4SP"/>
+                    </constraints>
+                </imageView>
+                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="614-Ic-zZD">
+                    <rect key="frame" x="168" y="545" width="39" height="37"/>
+                </pageControl>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8eT-L9-VfI">
+                    <rect key="frame" x="16" y="435" width="343" height="36"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                    <color key="shadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LDo-tg-8UJ">
+                    <rect key="frame" x="88" y="583" width="200" height="64"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                    <state key="normal" title="مفهوم" backgroundImage="button-green">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="closeButton:" destination="-1" eventType="touchUpInside" id="mXT-nZ-z7u"/>
+                    </connections>
+                </button>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="right" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LfA-Vs-c2o">
+                    <rect key="frame" x="14" y="480" width="346" height="77"/>
+                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </string>
+                    <color key="textColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                    <fontDescription key="fontDescription" name="AmericanTypewriter-CondensedBold" family="American Typewriter" pointSize="17"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="LfA-Vs-c2o" firstAttribute="top" secondItem="8eT-L9-VfI" secondAttribute="bottom" constant="9" id="6Zt-dA-QGf"/>
+                <constraint firstItem="614-Ic-zZD" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="168" id="Db6-Ec-Wbd"/>
+                <constraint firstAttribute="trailing" secondItem="LfA-Vs-c2o" secondAttribute="trailing" constant="15" id="InF-Nf-ylq"/>
+                <constraint firstAttribute="trailing" secondItem="8eT-L9-VfI" secondAttribute="trailing" constant="16" id="JbB-7B-h6M"/>
+                <constraint firstItem="HgT-PS-yBl" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="NEN-Ab-zPO"/>
+                <constraint firstAttribute="bottom" secondItem="LDo-tg-8UJ" secondAttribute="bottom" constant="20" id="P2R-sS-IWs"/>
+                <constraint firstItem="jnx-Ta-6R0" firstAttribute="centerX" secondItem="LfA-Vs-c2o" secondAttribute="centerX" id="SaX-yH-kjC"/>
+                <constraint firstItem="LDo-tg-8UJ" firstAttribute="top" secondItem="LfA-Vs-c2o" secondAttribute="bottom" constant="26" id="U2O-K3-Rs1"/>
+                <constraint firstItem="8eT-L9-VfI" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="Zv8-ey-pe8"/>
+                <constraint firstItem="jnx-Ta-6R0" firstAttribute="trailing" secondItem="HgT-PS-yBl" secondAttribute="trailing" id="c91-BF-CAm"/>
+                <constraint firstItem="LDo-tg-8UJ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="88" id="cPs-AT-2ce"/>
+                <constraint firstItem="jnx-Ta-6R0" firstAttribute="leading" secondItem="HgT-PS-yBl" secondAttribute="leading" id="eQv-eg-BmM"/>
+                <constraint firstItem="jnx-Ta-6R0" firstAttribute="bottom" secondItem="HgT-PS-yBl" secondAttribute="bottom" id="ezx-au-QWT"/>
+                <constraint firstItem="jnx-Ta-6R0" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="fnL-uu-Fqz"/>
+                <constraint firstAttribute="trailing" secondItem="LDo-tg-8UJ" secondAttribute="trailing" constant="87" id="fsI-oN-kni"/>
+                <constraint firstAttribute="bottom" secondItem="jnx-Ta-6R0" secondAttribute="bottom" id="gFi-Oq-OP7"/>
+                <constraint firstItem="LDo-tg-8UJ" firstAttribute="top" secondItem="614-Ic-zZD" secondAttribute="bottom" constant="1" id="i3G-3G-9y8"/>
+                <constraint firstItem="LfA-Vs-c2o" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="14" id="yAR-Is-lF6"/>
+                <constraint firstAttribute="trailing" secondItem="614-Ic-zZD" secondAttribute="trailing" constant="168" id="ygC-Xc-KyQ"/>
+            </constraints>
+            <point key="canvasLocation" x="33.5" y="54.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="button-green" width="200" height="64"/>
+        <image name="howto_1" width="375" height="667"/>
+        <image name="transparent" width="400" height="230"/>
+    </resources>
+</document>
