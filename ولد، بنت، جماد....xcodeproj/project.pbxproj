@@ -55,7 +55,6 @@
 		FC0E44AA1EA5AF8000880AAA /* words-ara-vegetables.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC0E44A91EA5AF8000880AAA /* words-ara-vegetables.plist */; };
 		FC0E44AE1EA5C1E500880AAA /* iRate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0E44AD1EA5C1E500880AAA /* iRate.m */; };
 		FC0E44B01EA6585300880AAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC0E44AF1EA6585300880AAA /* LaunchScreen.storyboard */; };
-		FC2D24501F2F608E00B592F5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC2D244F1F2F608E00B592F5 /* GoogleService-Info.plist */; };
 		FC46A0291EA81B2C000CB062 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC46A0281EA81B2C000CB062 /* AVFoundation.framework */; };
 		FC46A02B1EA81F60000CB062 /* wrongWord.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC46A02A1EA81F60000CB062 /* wrongWord.mp3 */; };
 		FC46A02F1EA821F7000CB062 /* valideWord.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC46A02E1EA821F7000CB062 /* valideWord.mp3 */; };
@@ -72,6 +71,7 @@
 		FCB615921EA964FA00DBCC16 /* popinLevels.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FCB615911EA964FA00DBCC16 /* popinLevels.mp3 */; };
 		FCB615941EA96D3800DBCC16 /* winLevel.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FCB615931EA96D3800DBCC16 /* winLevel.mp3 */; };
 		FCB615961EA96F4B00DBCC16 /* newLevel.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FCB615951EA96F4B00DBCC16 /* newLevel.mp3 */; };
+		FCBE35DE1F2F97DA00C726FA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FCBE35DD1F2F97DA00C726FA /* GoogleService-Info.plist */; };
 		FCBFE08B1F0B8F500026B47C /* LETGame2.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBFE08A1F0B8F500026B47C /* LETGame2.m */; };
 /* End PBXBuildFile section */
 
@@ -155,7 +155,6 @@
 		FC0E44AC1EA5C1E500880AAA /* iRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iRate.h; sourceTree = "<group>"; };
 		FC0E44AD1EA5C1E500880AAA /* iRate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iRate.m; sourceTree = "<group>"; };
 		FC0E44AF1EA6585300880AAA /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FC2D244F1F2F608E00B592F5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FC46A0281EA81B2C000CB062 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		FC46A02A1EA81F60000CB062 /* wrongWord.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wrongWord.mp3; sourceTree = "<group>"; };
 		FC46A02E1EA821F7000CB062 /* valideWord.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = valideWord.mp3; sourceTree = "<group>"; };
@@ -171,6 +170,7 @@
 		FCB615911EA964FA00DBCC16 /* popinLevels.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = popinLevels.mp3; sourceTree = "<group>"; };
 		FCB615931EA96D3800DBCC16 /* winLevel.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = winLevel.mp3; sourceTree = "<group>"; };
 		FCB615951EA96F4B00DBCC16 /* newLevel.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = newLevel.mp3; sourceTree = "<group>"; };
+		FCBE35DD1F2F97DA00C726FA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FCBFE0891F0B8F500026B47C /* LETGame2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LETGame2.h; sourceTree = "<group>"; };
 		FCBFE08A1F0B8F500026B47C /* LETGame2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LETGame2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -481,7 +481,7 @@
 			isa = PBXGroup;
 			children = (
 				38D47E821833CAC600945FB0 /* InfoPlist.strings */,
-				FC2D244F1F2F608E00B592F5 /* GoogleService-Info.plist */,
+				FCBE35DD1F2F97DA00C726FA /* GoogleService-Info.plist */,
 				38D47E831833CAC600945FB0 /* ولد، بنت، جماد...-Info.plist */,
 				38D47E841833CAC600945FB0 /* ولد، بنت، جماد...-Prefix.pch */,
 				38D47E851833CAC600945FB0 /* main.m */,
@@ -541,6 +541,7 @@
 				381AB7AF18324644001B5E9A /* Resources */,
 				3A93E46B07396F9B9240C453 /* [CP] Embed Pods Frameworks */,
 				3E5390AF3732EED3699C32AE /* [CP] Copy Pods Resources */,
+				FC2D24531F2F8C2A00B592F5 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -623,7 +624,7 @@
 				FCB615941EA96D3800DBCC16 /* winLevel.mp3 in Resources */,
 				FC47DD1E1EAAD41200CAB7E6 /* displayButtonPlay.mp3 in Resources */,
 				389A6898183F6A3200A5E309 /* words-ara-capitals.plist in Resources */,
-				FC2D24501F2F608E00B592F5 /* GoogleService-Info.plist in Resources */,
+				FCBE35DE1F2F97DA00C726FA /* GoogleService-Info.plist in Resources */,
 				FC0E44AA1EA5AF8000880AAA /* words-ara-vegetables.plist in Resources */,
 				389A8661185B2E63009C0D71 /* heart.png in Resources */,
 				FCB615961EA96F4B00DBCC16 /* newLevel.mp3 in Resources */,
@@ -714,6 +715,19 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
+		};
+		FC2D24531F2F8C2A00B592F5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" a235920a299e5f6523de254b03ac690d22aa5756 92b0d69b3affa108ccd48ebc13ad7002048fa4b78265a22ea5f79ab10de0276a\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
