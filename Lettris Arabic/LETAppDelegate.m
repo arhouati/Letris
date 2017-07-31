@@ -7,14 +7,18 @@
 //
 
 #import "LETAppDelegate.h"
+@import Firebase;
+@import Fabric;
+@import Crashlytics;
 
 @implementation LETAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     
+    [FIRApp configure];
+    [Fabric with:@[[Crashlytics class]]];
     [GADMobileAds configureWithApplicationID:@"ca-app-pub-0794359614832638~3363019627"];
-
     return YES;
     
 
