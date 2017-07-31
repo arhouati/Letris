@@ -55,6 +55,7 @@
 		FC0E44AA1EA5AF8000880AAA /* words-ara-vegetables.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC0E44A91EA5AF8000880AAA /* words-ara-vegetables.plist */; };
 		FC0E44AE1EA5C1E500880AAA /* iRate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0E44AD1EA5C1E500880AAA /* iRate.m */; };
 		FC0E44B01EA6585300880AAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC0E44AF1EA6585300880AAA /* LaunchScreen.storyboard */; };
+		FC2D24501F2F608E00B592F5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC2D244F1F2F608E00B592F5 /* GoogleService-Info.plist */; };
 		FC46A0291EA81B2C000CB062 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC46A0281EA81B2C000CB062 /* AVFoundation.framework */; };
 		FC46A02B1EA81F60000CB062 /* wrongWord.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC46A02A1EA81F60000CB062 /* wrongWord.mp3 */; };
 		FC46A02F1EA821F7000CB062 /* valideWord.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC46A02E1EA821F7000CB062 /* valideWord.mp3 */; };
@@ -154,6 +155,7 @@
 		FC0E44AC1EA5C1E500880AAA /* iRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iRate.h; sourceTree = "<group>"; };
 		FC0E44AD1EA5C1E500880AAA /* iRate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iRate.m; sourceTree = "<group>"; };
 		FC0E44AF1EA6585300880AAA /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC2D244F1F2F608E00B592F5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FC46A0281EA81B2C000CB062 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		FC46A02A1EA81F60000CB062 /* wrongWord.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wrongWord.mp3; sourceTree = "<group>"; };
 		FC46A02E1EA821F7000CB062 /* valideWord.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = valideWord.mp3; sourceTree = "<group>"; };
@@ -479,6 +481,7 @@
 			isa = PBXGroup;
 			children = (
 				38D47E821833CAC600945FB0 /* InfoPlist.strings */,
+				FC2D244F1F2F608E00B592F5 /* GoogleService-Info.plist */,
 				38D47E831833CAC600945FB0 /* ولد، بنت، جماد...-Info.plist */,
 				38D47E841833CAC600945FB0 /* ولد، بنت، جماد...-Prefix.pch */,
 				38D47E851833CAC600945FB0 /* main.m */,
@@ -620,6 +623,7 @@
 				FCB615941EA96D3800DBCC16 /* winLevel.mp3 in Resources */,
 				FC47DD1E1EAAD41200CAB7E6 /* displayButtonPlay.mp3 in Resources */,
 				389A6898183F6A3200A5E309 /* words-ara-capitals.plist in Resources */,
+				FC2D24501F2F608E00B592F5 /* GoogleService-Info.plist in Resources */,
 				FC0E44AA1EA5AF8000880AAA /* words-ara-vegetables.plist in Resources */,
 				389A8661185B2E63009C0D71 /* heart.png in Resources */,
 				FCB615961EA96F4B00DBCC16 /* newLevel.mp3 in Resources */,

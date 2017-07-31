@@ -7,14 +7,16 @@
 //
 
 #import "LETAppDelegate.h"
+@import Firebase;
 
 @implementation LETAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     
+    [FIRApp configure];
     [GADMobileAds configureWithApplicationID:@"ca-app-pub-0794359614832638~3363019627"];
-
+    
     return YES;
     
 
